@@ -110,20 +110,6 @@ function initNav() {
     };
   }
 
-  // 语言切换点击
-  if (langEle) {
-    langEle.onclick = function () {
-      switch (langEle.innerText) {
-        case "en":
-          location.href = "/fr";
-          break;
-        case "fr":
-          location.href = "/";
-          break;
-      }
-    };
-  }
-
   // 子菜单点击
   // if (listItems) {
   // for (let item of listItems) {
